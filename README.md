@@ -119,6 +119,7 @@ https://zenodo.org/records/3555552
 
 ### Evaluation
 Clean Error and Corruption Error(Mean)
+
 CIFAR10
     ```
     python cifar.py --resume [model_best.pth.tar path] --evaluate
