@@ -75,20 +75,6 @@ ResNet-20 + REF on CIFAR100：
     python cifar.py --dataset cifar100 --arch resnet --depth 20 --p 0.0 --p2 0.5
     ```
 
-#### Corruption data preparation
-
-### CIFAR-10-C
-
-Download CIFAR10-C dataset
-
-https://paperswithcode.com/dataset/cifar-10c
-
-### CIFAR-100-C
-
-Download CIFAR100-C dataset
-
-https://zenodo.org/records/3555552
-
 #### Fashion-MNIST
 
 
@@ -115,6 +101,22 @@ For WRN：
     --arch wrn --depth 28 --widen-factor 10
     ```
 
+===============================================================
+#### Corruption data preparation
+
+### CIFAR-10-C
+
+Download CIFAR10-C dataset
+
+https://paperswithcode.com/dataset/cifar-10c
+
+### CIFAR-100-C
+
+Download CIFAR100-C dataset
+
+https://zenodo.org/records/3555552
+
+
 ### Evaluation
 Clean Error and Corruption Error(Mean)
 CIFAR10
@@ -126,6 +128,8 @@ CIFAR100
     ```
     python cifar.py --resume [model_best.pth.tar path] --evaluate --dataset cifar100
     ```
+
+===============================================================
 
 ### Our results
 
